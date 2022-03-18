@@ -7,6 +7,9 @@ ruby '2.7.3'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.6'
 gem 'bootstrap-sass'
 gem 'bcrypt'
+gem 'faker',                   '2.20.0'
+gem 'will_paginate',           '3.3.1'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
